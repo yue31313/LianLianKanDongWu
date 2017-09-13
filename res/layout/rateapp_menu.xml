@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400sp"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:text="Thanks for playing Animals Match 2"
+        android:background="#FFFFFF"
+        android:textColor="#0099D6"
+        android:gravity="left"
+        android:layout_margin="10sp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/text1"
+        />
+	<ImageView
+     android:layout_width="400sp"
+     android:layout_height="wrap_content"
+     android:src="@drawable/landscape"
+     android:scaleType="fitXY"
+    />
+                
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="Help us to make it even better by rating this app!"
+        android:background="#FFFFFF"
+        android:textColor="#111111"
+        android:gravity="left"
+        android:layout_margin="10sp"
+        android:textSize="21sp"
+        android:id="@+id/text2"
+        />
+        
+        	<ImageView
+     android:layout_width="400sp"
+     android:layout_height="wrap_content"
+     android:src="@drawable/landscape2"
+     android:scaleType="fitXY"
+    />
+        	<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#FFFFFF"
+    android:layout_margin="10sp"
+    >
+    <Button 
+        android:layout_width="120sp"
+        android:layout_height="wrap_content" 
+        android:background="#FFFFFF"
+        android:textColor="#111111"
+        android:text="No thanks"
+        android:textSize="18sp"
+        android:id="@+id/button1"
+        />
+    
+    <Button 
+        android:layout_width="120sp"
+        android:layout_height="wrap_content" 
+        android:background="#FFFFFF"
+        android:textColor="#111111"
+        android:text=" Later "
+        android:textSize="18sp"
+        android:drawableLeft="@drawable/portrait"
+        android:id="@+id/button2"
+        />
+    
+        <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="#FFFFFF"
+        android:textColor="#111111"
+        android:text=" Yes!  "
+        android:textSize="22sp"
+        android:drawableLeft="@drawable/portrait"
+        android:id="@+id/button3"
+        />
+    </LinearLayout>    	
+</LinearLayout>

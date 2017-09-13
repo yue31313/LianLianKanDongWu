@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    
+     <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/mainiv"
+    />
+     
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    >
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Records"
+    android:gravity="center" 
+    android:id="@+id/recordsbtn"
+    android:textColor="#EEEEEE"
+    android:textSize="30sp"
+    android:background="@drawable/main_menu_select"
+    android:layout_margin="5sp"
+    />
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Play"
+    android:gravity="center" 
+    android:id="@+id/playbtn"
+    android:textColor="#EEEEEE"
+    android:textSize="45sp"
+    android:background="@drawable/play_menu_select"
+    android:layout_margin="5sp"
+    />
+    
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="More"
+    android:gravity="center" 
+    android:id="@+id/morebtn"
+    android:textColor="#EEEEEE"
+    android:textSize="30sp"
+    android:background="@drawable/main_menu_select"
+    android:layout_margin="5sp"
+    />
+    </LinearLayout>
+    
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center" 
+    android:id="@+id/adappbtn"
+    android:layout_margin="5sp"
+    android:background="@drawable/cat_gift"
+    />
+</LinearLayout>
